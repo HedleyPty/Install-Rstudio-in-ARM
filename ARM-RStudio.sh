@@ -39,7 +39,7 @@ sudo apt-get install -y pandoc  texlive-extra-utils
 sudo chown $owner:root -R rstudio-$VERS
 arm_lib="$(ls /usr/lib |grep ^arm)"
 qmake_bin="\/usr\/lib\/$arm_lib\/qt5\/bin\/qmake"
-sed -i "s/get_filename.*/get_filename(QT_BIN_DIR $qmake_bin PATH)" rstudio-$VERS/src/cpp/desktop/CMakeLists.txt
+sed -i "s/get_filename.*/get_filename(QT_BIN_DIR $qmake_bin PATH)/" rstudio-$VERS/src/cpp/desktop/CMakeLists.txt
 
 #Run common environment preparation scripts
 
