@@ -66,7 +66,7 @@ sudo cmake -DRSTUDIO_TARGET=Desktop -DCMAKE_BUILD_TYPE=Release
 sudo make install
 
 #Clean the system of packages used for building
-#cd
-#sudo apt-get autoremove -y cabal-install ghc pandoc libboost-all-dev
-#sudo rm -r -f rstudio-$VERS
-#sudo apt-get autoremove -y
+cd
+sudo apt-get autoremove -y cabal-install ghc pandoc libboost-all-dev
+sudo rm -r -f rstudio-$VERS
+sudo apt-get autoremove -y

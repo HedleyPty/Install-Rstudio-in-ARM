@@ -1,5 +1,5 @@
 # Install-Rstudio-in-ARM
-I created this repository in order to install R studio in ARM. I modified the ARM script provided by https://github.com/dashaub/ARM-RStudio in order to get the latest version or RStudio desktop. I have tested it on a sid debian. 
+I created this repository in order to install R studio in ARM. I modified the ARM script provided by https://github.com/dashaub/ARM-RStudio in order to get the latest version or RStudio desktop. I have tested it on a sid debian unsuccessfully. But I tried in Ubuntu Yakkety (16.10) and it works fine (see the images)
 
 #Changes to the file provided by dashaub/ARM-RStudio
 
